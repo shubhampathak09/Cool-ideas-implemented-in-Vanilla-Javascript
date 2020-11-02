@@ -15,7 +15,7 @@ async function getRandomMealInfo()
     const resp=await fetch('https://www.themealdb.com/api/json/v1/1/random.php')
     const info=await resp.json();
     console.log(info.meals[0].strMeal);
-    return info.meals[0];
+    //return info.meals[0];
 }
 
  
